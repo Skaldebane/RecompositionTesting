@@ -1,0 +1,24 @@
+<resources>
+    <style name="Theme.RecompositionTesting" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/backgroundColorLight</item>
+        <item name="colorPrimaryVariant">@color/backgroundColorLight</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/backgroundColorLight</item>
+        <item name="colorSecondaryVariant">@color/backgroundColorLight</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- System bars color -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="Theme.RecompositionTesting.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.RecompositionTesting.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.RecompositionTesting.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
